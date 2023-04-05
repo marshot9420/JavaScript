@@ -1,7 +1,3 @@
-const btn = document.getElementById("btn");
+const myFunc = () => {};
 
-function handleBtn(e) {
-  console.log(this);
-}
-
-btn.addEventListener("click", handleBtn);
+myFunc();
